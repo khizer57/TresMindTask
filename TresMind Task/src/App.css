@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #852EBD;
+  background-image: url(./images/Component\ 42\ –\ 1.png), url(./images/leftimage.svg), url(./images/Component\ 9\ –\ 1.png);
+  background-size: 470px, 920px, 170px;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 140px), right, 0px 250px;
+
+  
+}
+
+.type {
+  font-family: 'Lato';
+  padding-top: 60px;
+  padding-right: 700px;
+  padding-left: 200px;
+  color: white;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.big {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  font-family: 'Lato';
+
+
+}
+
+.btn-box {
+  text-align: left;
+  padding-top: 10px;
+}
+
+.cardbox {
+  display: flex;
+  justify-content: center;
+}
+
+.hd {
+  color: #822DB9;
+  font-family: 'Lato';
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.App-header2 {
+  background-image: url(./images/lightpurpleleft.png), url(./images/lightpurpleright.png), url(./images/mobile.png);
+  background-position: 0px 80px, right, 125px 425px;
+  height: 150vh;
+  background-size: 350px , 350px, 600px;
+  background-repeat: no-repeat;
+}
+.list {
+    list-style-type: none;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+li {
+  padding-top: 10px;
+}
+
+.text {
+  padding: 80px 20px;
+  float: right;
+  margin: 20px 100px;
+}
+
+.wyl {
+  font-family: 'Lato';
+  color: #822DB9;
+  font-size: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .App-header {
+    background-position: center;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .type {
+    padding: 30px;
+    padding-top: 120px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .type {
+    padding-left: 150px;
+    padding-top: 10px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .type {
+    padding-left: 100px;
+    padding-top: 10px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .type {
+    padding-left: 70px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .type {
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .type {
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 985px) {
+  .type {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+  
+  }
+}
+
